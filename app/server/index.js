@@ -5,7 +5,7 @@ const express = require('express');
 const PORT = process.env.PORT || 3001;
 const app = express();
 
-const API_KEY = 'AIzaSyCBOxpkk75xftbcnTFUoETAaS-bjiXlGKA';
+const API_KEY = '';
 const axios = require('axios');
 
 app.get('/api', (req, res) => {
